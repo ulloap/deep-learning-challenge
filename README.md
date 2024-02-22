@@ -5,7 +5,7 @@ Module21
 The purpose of this project was to create a model for Alphabet Soup in order to predict whether applicants would be successful or not for funding. The minimum accuracy score required was 75%
 
 ## Process
-#Data processing
+# Data processing
 * What variable(s) are the target(s) for your model?
 
 The target variable was the "IS_SUCCESSFUL" from the 'application_df' for both attempts
