@@ -5,18 +5,15 @@ Module21
 The purpose of this project was to create a model for Alphabet Soup in order to predict whether applicants would be successful or not for funding. The minimum accuracy score required was 75%
 
 ## Data processing
-* What variable(s) are the target(s) for your model?
+What variable(s) are the target(s) for your model?
+* The target variable was the "IS_SUCCESSFUL" from the 'application_df' for both attempts
 
-The target variable was the "IS_SUCCESSFUL" from the 'application_df' for both attempts
+What variable(s) are the features for your model?
+* For both attempts, the feature variabless were all the other columns in the 'application_df' except for the "IS_SUCCESSFUL" column
 
-* What variable(s) are the features for your model?
-
-For both attempts, the feature variabless were all the other columns in the 'application_df' except for the "IS_SUCCESSFUL" column
-
-* What variable(s) should be removed from the input data because they are neither targets nor features?
-
-The "EIN" column was removed for both attempts.
-"NAME" column was also removed for the first attempt, the second attempt did not have any additional columns removed.
+What variable(s) should be removed from the input data because they are neither targets nor features?
+* The "EIN" column was removed for both attempts.
+* "NAME" column was also removed for the first attempt, the second attempt did not have any additional columns removed.
 
 ## Compiling, Training, and Evaluating the Model
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
