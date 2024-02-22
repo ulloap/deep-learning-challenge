@@ -5,9 +5,9 @@ Module21
 The purpose of this project was to create a model for Alphabet Soup in order to predict whether applicants would be successful or not for funding. The minimum accuracy score required was 75%
 
 ## Process
--Data processing
+#Data processing
 * What variable(s) are the target(s) for your model?
-The target variable was the "IS_SUCCESSFUL" from the 'application_df' for both attempts
+-The target variable was the "IS_SUCCESSFUL" from the 'application_df' for both attempts
 
 * What variable(s) are the features for your model?
 For both attempts, the feature variabless were all the other columns in the 'application_df' except for the "IS_SUCCESSFUL" column
@@ -15,8 +15,8 @@ For both attempts, the feature variabless were all the other columns in the 'app
 * What variable(s) should be removed from the input data because they are neither targets nor features?
 The variables that were removed were the "EIN" and "NAME" columns
 
--Compiling, Training, and Evaluating the Model
-* How many neurons, layers, and activation functions did you select for your neural network model, and why?
+#Compiling, Training, and Evaluating the Model
+How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
 *-The first attempt had 2 hidden layers, with 20 nodes for the first layer and 10 nodes for the second layer. 100 epochs were used. The "relu" activation function was used for both hidden layers, and the "sigmoid" activation function was used for the output layer. This resulted in a 73% accuracy
 ![Screenshot](/var/folders/5z/xt2b2jzn6r5_2g3q71bdwxsh0000gn/T/TemporaryItems/NSIRD_screencaptureui_3yNlF3/Screenshot 2024-02-21 at 8.44.01 PM.png)
